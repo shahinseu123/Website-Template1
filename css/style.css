@@ -1,0 +1,114 @@
+.navbar, #footer{
+	background: #000;
+}
+.navbar-nav li{
+	padding-left: 1em;
+	color: white;
+}
+ .navbar-nav li a{
+	text-transform: uppercase;
+ }
+ #slider .carousel-image-1{
+	 background: url(../img/image1.jpeg);
+	 height: 450px;
+ }
+
+ 
+ #slider .carousel-image-2{
+	background: url(../img/image2.jpeg);
+	height: 450px;
+}
+#slider .carousel-image-3{
+	background: url(../img/image3.jpeg);
+	height: 450px;
+}
+#home-info i{
+	font-size: 50px;
+}
+#get-started{
+	background: url(../img/bg1.jpeg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 250px;
+}
+#get-started .dark-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0, 0.7)
+}
+#video-section {
+	position: relative;
+	background: url('../img/people.jpeg');
+	min-height: 250px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+#video-section .dark-overlay2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0, 0.7);
+}
+#video-section i{
+	font-size: 50px;
+	color: red;
+}
+#photo-gallery img{
+	min-height: 250px;
+}
+/* about page css */
+#fixed-image{
+	background: url(../img/image1.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 200px;
+}
+#what-we-do img{
+	height: 350px;
+	width: 350px;
+}
+/* #card-section2 i{
+	
+} */
+.slick-prev::before, .slick-next::before{
+	color: #333;
+}
+
+/* services */
+
+#fixed-image-services{
+	background: url(../img/image2.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 200px;
+}
+
+/*Responsive code*/
+@media (max-width: 767px) {
+	.navbar-nav li{
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 480px){
+	#slider h1{
+		font-size: 2.5rem;	
+	}
+
+	#getstarted h2{
+		font-size: 1.5rem;
+	}
+
+
+
+}
